@@ -4,7 +4,7 @@ void ofApp::setup(){
     
     canvas.allocate(1000,1000,  OF_IMAGE_GRAYSCALE);
     cPix = canvas.getPixels();
-    
+     
     cPix.setColor(canvas.getWidth()/2, canvas.getHeight()/2, 255);
     cPix.setColor((canvas.getWidth()/2) - 1, canvas.getHeight()/2, 255);
     cPix.setColor((canvas.getWidth()/2) - 1, (canvas.getHeight()/2) - 1, 255);
